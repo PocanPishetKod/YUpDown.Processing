@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="YHome.StreamingData.Core" Version="0.0.1" />
+    <PackageReference Include="YHome.StreamingData.Streams" Version="0.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\YUpDown.Processing.Server.Interface\YUpDown.Processing.Server.Interface.csproj" />
+  </ItemGroup>
+
+</Project>

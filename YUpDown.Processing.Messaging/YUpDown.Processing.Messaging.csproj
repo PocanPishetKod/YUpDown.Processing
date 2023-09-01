@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RabbitMQ.Client" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Subscribers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\YUpDown.Processing.Application\YUpDown.Processing.Application.csproj" />
+  </ItemGroup>
+
+</Project>
